@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(get_config("TG_BOT_WORKERS", "4"))
 #
 COMMM_AND_PRE_FIX = get_config("COMMM_AND_PRE_FIX", "/")
 # start command
-START_COMMAND = get_config("START_COMMAND", "start")
+START_COMMAND = get_config("START_COMMAND", "help")
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "SessionMakerBot.log")
 
