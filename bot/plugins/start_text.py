@@ -49,15 +49,15 @@ async def num_start_message(_, message: Message):
 @Client.on_message(filters.private & filters.command('start'))
 def _start(client, message):
     chatID = message.chat.id
-    photoUrl = "https://telegra.ph/file/aa59c3024666f7bc9f712.jpg"
+    photoUrl = "https://telegra.ph/file/8ab63a84d02c469f37b2a.jpg"
     client.send_photo(chatID, photoUrl, 
     parse_mode = "markdown", 
-    caption = "**Hellooooo**", 
+    caption = "**Pyrogram String Session Maker**\nPlease Read : /help", 
     reply_to_message_id = message.message_id, 
     reply_markup = InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("👑 My Owner", url=f"t.me/AmineSoukara"),
+                    [[InlineKeyboardButton("👑 Creator", url=f"t.me/AmineSoukara"),
                     InlineKeyboardButton("💬 Channel", url="t.me/DamienSoukara")],
-                    [InlineKeyboardButton("🔥  DAMIEN-X", callback_data="about")
+                    [InlineKeyboardButton("⭕ Deploy DAMIEN-X ⭕", url="https://bit.ly/DamienDeploy")
                     ]]
                 )
             )
