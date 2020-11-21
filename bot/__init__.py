@@ -89,9 +89,9 @@ INPUT_PHONE_NUMBER = get_config("INPUT_PHONE_NUMBER", (
     "⭕ Enter The Phone Number That You Want To Make Awesome."
 ))
 RECVD_PHONE_NUMBER_DBP = get_config("RECVD_PHONE_NUMBER_DBP", (
-    "❔ Checking Received Phone Number \n\n"
-    "● The Process Takes a Long Time,\n"
-    "○ Please Be Patient,\n\n"
+    "🔴 Checking Received Phone Number \n\n"
+    "🟣 The Process Takes a Long Time,\n"
+    "🔵 Please Be Patient,\n\n"
     "<b>Never Submit Again</b> \n"
     "<b><i><u>It'll Ruin The System</u></i></b>"
 ))
@@ -99,16 +99,16 @@ ALREADY_REGISTERED_PHONE = get_config("ALREADY_REGISTERED_PHONE", (
     "⭕ This Number Is Registered On Telegram. "
     "Please Input The Verification Code That You Receive "
     "From <a href='tg://user?id=777000'>Telegram</a> "
-    "Seperated By Space, \n\n <b>Example :<\b> ✅ 1 7 0 2 9 - ❌ 17029\n\n"
-    "Else A <b>PhoneCodeInvalidError<\b> Would Be Raised."
+    "Seperated By Space, \n\n <b>🤫 Example :</b> ✅ 1 7 0 2 9 - ❌ 17029\n\n"
+    "Else A <b>PhoneCodeInvalidError</b> Would Be Raised."
 ))
 CONFIRM_SENT_VIA = get_config("CONFIRM_SENT_VIA", (
     "✅ The Confirmation Code Has Been Sent Via {}"
 ))
 RECVD_PHONE_CODE = get_config("RECVD_PHONE_CODE", (
-    "❔ Checking Received Phone Code \n\n"
-    "● The Process Takes a Long Time,\n"
-    "○ Please Be Patient,\n\n"
+    "🔴 Checking Received Phone Code \n\n"
+    "🟣 The Process Takes a Long Time,\n"
+    "🔵 Please Be Patient,\n\n"
     "<b>Never Submit Again</b> \n"
     "<b><i><u>It'll Ruin The System</u></i></b>"
 ))
