@@ -41,7 +41,7 @@ async def num_start_message(_, message: Message):
     AKTIFPERINTAH[message.chat.id] = {}
     chatID = message.chat.id
     photoUrl = "https://telegra.ph/file/aa59c3024666f7bc9f712.jpg"
-    send_photo(chatID, photoUrl, 
+    Client.send_photo(chatID, photoUrl, 
     parse_mode = "markdown", 
     caption = "**Hellooooo**", 
     reply_to_message_id = message.message_id, 
