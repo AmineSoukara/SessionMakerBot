@@ -101,7 +101,7 @@ ALREADY_REGISTERED_PHONE = get_config("ALREADY_REGISTERED_PHONE", (
     "⭕ This Number Is Registered On Telegram. "
     "Please Input The Verification Code That You Receive "
     "From <a href='tg://user?id=777000'>Telegram</a> "
-    "Seperated By Space, \nExample : ✅ 1 7 0 2 9 - ❌ 17029"
+    "Seperated By Space, \n\n Example : ✅ 1 7 0 2 9 - ❌ 17029\n\n"
     "Else A PhoneCodeInvalidError Would Be Raised."
 ))
 CONFIRM_SENT_VIA = get_config("CONFIRM_SENT_VIA", (
@@ -119,11 +119,11 @@ NOT_REGISTERED_PHONE = get_config("NOT_REGISTERED_PHONE", (
 ))
 PHONE_CODE_IN_VALID_ERR_TEXT = get_config(
     "PHONE_CODE_IN_VALID_ERR_TEXT",
-    "🤦‍♂️ Invalid Code Received. Please Re /Start"
+    "🤦‍♂️ Invalid Code Received. Please Re /start"
 )
 TFA_CODE_IN_VALID_ERR_TEXT = get_config(
     "TFA_CODE_IN_VALID_ERR_TEXT",
-    "🤦‍♂️ Invalid Two Factor Code Received. Please Re /Start"
+    "🤦‍♂️ Invalid Two Factor Code Received. Please Re /start"
 )
 ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "The entered Telegram Number is protected with 2FA. "
