@@ -33,15 +33,11 @@ from bot import (
 )
 
 
-@Client.on_message(
-    filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
-    filters.private
-)
-async def num_start_message(_, message: Message):
-    AKTIFPERINTAH[message.chat.id] = {}
+@Client.on_message(filters.private & filters.command('start'))
+def _start(client, message):
     chatID = message.chat.id
     photoUrl = "https://telegra.ph/file/aa59c3024666f7bc9f712.jpg"
-    Client.send_photo(chatID, photoUrl, 
+    client.send_photo(chatID, photoUrl, 
     parse_mode = "markdown", 
     caption = "**Hellooooo**", 
     reply_to_message_id = message.message_id, 
@@ -52,5 +48,3 @@ async def num_start_message(_, message: Message):
                     ]]
                 )
             )
-    AKTIFPERINTAH[message.chat.id]["START"] = status_message
-    raise message.stop_propagation()
