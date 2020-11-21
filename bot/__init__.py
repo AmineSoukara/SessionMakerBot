@@ -83,64 +83,57 @@ START_OTHER_USERS_TEXT = get_config(
     "START_OTHER_USERS_TEXT",
     (
         "Hi. ☺️\n"
-        "Thank you for using me 😬\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHIDe/SessionMakerBot\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "Thank You For Using Me 😬\n\n"
+        "ℹ️ Subscribe @Damienoukara If You 💜 This Bot"
     )
 )
 INPUT_PHONE_NUMBER = get_config("INPUT_PHONE_NUMBER", (
-    "Enter the Phone Number that you want to make awesome."
+    "⭕ Enter The Phone Number That You Want To Make Awesome."
 ))
 RECVD_PHONE_NUMBER_DBP = get_config("RECVD_PHONE_NUMBER_DBP", (
-    "checking received phone number \n\n"
-    ">> the Process Takes a Long Time,\n"
-    ">>> Please be Patient,\n\n"
+    "❔ Checking Received Phone Number \n\n"
+    ">> The Process Takes a Long Time,\n"
+    ">>> Please Be Patient,\n\n"
     "<b>Never Submit Again</b> \n"
-    "<b><i><u>It'll ruin the System</u></i></b>"
+    "<b><i><u>It'll Ruin The System</u></i></b>"
 ))
 ALREADY_REGISTERED_PHONE = get_config("ALREADY_REGISTERED_PHONE", (
-    "This number is registered on Telegram. "
-    "Please input the verification code that you receive "
-    "from <a href='tg://user?id=777000'>Telegram</a> "
-    "seperated by space, "
-    "else a PhoneCodeInvalidError would be raised."
+    "⭕ This Number Is Registered On Telegram. "
+    "Please Input The Verification Code That You Receive "
+    "From <a href='tg://user?id=777000'>Telegram</a> "
+    "Seperated By Space, \nExample : ✅ 1 7 0 2 9 - ❌ 17029"
+    "Else A PhoneCodeInvalidError Would Be Raised."
 ))
 CONFIRM_SENT_VIA = get_config("CONFIRM_SENT_VIA", (
-    "The confirmation code has been sent via {}"
+    "✅ The Confirmation Code Has Been Sent Via {}"
 ))
 RECVD_PHONE_CODE = get_config("RECVD_PHONE_CODE", (
-    "checking received phone code \n\n"
-    ">> the Process Takes a Long Time,\n"
-    ">>> Please be Patient,\n\n"
+    "❔ Checking Received Phone Code \n\n"
+    ">> The Process Takes a Long Time,\n"
+    ">>> Please Be Patient,\n\n"
     "<b>Never Submit Again</b> \n"
-    "<b><i><u>It'll ruin the System</u></i></b>"
+    "<b><i><u>It'll Ruin The System</u></i></b>"
 ))
 NOT_REGISTERED_PHONE = get_config("NOT_REGISTERED_PHONE", (
-    "This number is not registered on Telegram. "
-    "Please check your #karma by reading https://t.me/c/1220993104/28753"
+    "❌ This Number Is Not Registered On Telegram. "
 ))
 PHONE_CODE_IN_VALID_ERR_TEXT = get_config(
     "PHONE_CODE_IN_VALID_ERR_TEXT",
-    "Invalid Code Received. Please re /start"
+    "🤦‍♂️ Invalid Code Received. Please Re /Start"
 )
 TFA_CODE_IN_VALID_ERR_TEXT = get_config(
     "TFA_CODE_IN_VALID_ERR_TEXT",
-    "Invalid Two Factor Code Received. Please re /start"
+    "🤦‍♂️ Invalid Two Factor Code Received. Please Re /Start"
 )
 ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "The entered Telegram Number is protected with 2FA. "
-    "Please enter your second factor authentication code.\n"
+    "Please enter your second factor authentication code.\n\n"
     "<i>This message will only be used for generating your "
     "string session, and will never be used for any other purposes "
     "than for which it is asked.</i>\n\n"
-    "It is recommended to use "
-    "https://github.com/SpEcHIDe/SessionMakerBot and not "
-    "use this hosted version"
+    "⚙ @DamienSoukara"
 ))
 SESSION_GENERATED_USING = get_config("SESSION_GENERATED_USING", (
-    "Thank you for using me 😬\n\n"
-    "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/SessionMakerBot\n\n\n"
-    "👆👆👆 String Session successfully generated 👆👆👆"
+    "👆 String Session Successfully Generated\n\n"
+    "⚙ By : @DamienSoukara 💜 Thank You For Using Me "
 ))
