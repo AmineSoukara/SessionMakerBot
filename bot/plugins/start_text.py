@@ -20,7 +20,9 @@ from pyrogram import (
     filters
 )
 from pyrogram.types import (
-    Message
+    Message,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton
 )
 from bot import (
     AKTIFPERINTAH,
@@ -37,8 +39,18 @@ from bot import (
 )
 async def num_start_message(_, message: Message):
     AKTIFPERINTAH[message.chat.id] = {}
-    status_message = await message.reply_text(
-        START_OTHER_USERS_TEXT + "\n" + INPUT_PHONE_NUMBER
-    )
+    chatID = message.chat.id
+    photoUrl = "https://telegra.ph/file/aa59c3024666f7bc9f712.jpg"
+    status_message = await client.send_photo(chatID, photoUrl, 
+    parse_mode = "markdown", 
+    caption = "**Hellooooo**", 
+    reply_to_message_id = message.message_id, 
+    reply_markup = InlineKeyboardMarkup(
+                    [[InlineKeyboardButton("👑 My Owner", url=f"t.me/AmineSoukara"),
+                    InlineKeyboardButton("💬 Channel", url="t.me/DamienSoukara")],
+                    [InlineKeyboardButton("🔥  DAMIEN-X", callback_data="about")
+                    ]]
+                )
+            )
     AKTIFPERINTAH[message.chat.id]["START"] = status_message
     raise message.stop_propagation()
