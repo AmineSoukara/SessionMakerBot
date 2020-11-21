@@ -82,9 +82,7 @@ AVAILABLE_CODE_RECVING_OPTIONS = {
 START_OTHER_USERS_TEXT = get_config(
     "START_OTHER_USERS_TEXT",
     (
-        "Hi. ☺️\n"
-        "Thank You For Using Me 😬\n\n"
-        "ℹ️ Subscribe @Damienoukara If You 💜 This Bot"
+        "Subscribe @DamienSoukara If You 💜 This Bot\n\n"
     )
 )
 INPUT_PHONE_NUMBER = get_config("INPUT_PHONE_NUMBER", (
@@ -92,8 +90,8 @@ INPUT_PHONE_NUMBER = get_config("INPUT_PHONE_NUMBER", (
 ))
 RECVD_PHONE_NUMBER_DBP = get_config("RECVD_PHONE_NUMBER_DBP", (
     "❔ Checking Received Phone Number \n\n"
-    ">> The Process Takes a Long Time,\n"
-    ">>> Please Be Patient,\n\n"
+    "● The Process Takes a Long Time,\n"
+    "○ Please Be Patient,\n\n"
     "<b>Never Submit Again</b> \n"
     "<b><i><u>It'll Ruin The System</u></i></b>"
 ))
@@ -101,16 +99,16 @@ ALREADY_REGISTERED_PHONE = get_config("ALREADY_REGISTERED_PHONE", (
     "⭕ This Number Is Registered On Telegram. "
     "Please Input The Verification Code That You Receive "
     "From <a href='tg://user?id=777000'>Telegram</a> "
-    "Seperated By Space, \n\n Example : ✅ 1 7 0 2 9 - ❌ 17029\n\n"
-    "Else A PhoneCodeInvalidError Would Be Raised."
+    "Seperated By Space, \n\n <b>Example :<\b> ✅ 1 7 0 2 9 - ❌ 17029\n\n"
+    "Else A <b>PhoneCodeInvalidError<\b> Would Be Raised."
 ))
 CONFIRM_SENT_VIA = get_config("CONFIRM_SENT_VIA", (
     "✅ The Confirmation Code Has Been Sent Via {}"
 ))
 RECVD_PHONE_CODE = get_config("RECVD_PHONE_CODE", (
     "❔ Checking Received Phone Code \n\n"
-    ">> The Process Takes a Long Time,\n"
-    ">>> Please Be Patient,\n\n"
+    "● The Process Takes a Long Time,\n"
+    "○ Please Be Patient,\n\n"
     "<b>Never Submit Again</b> \n"
     "<b><i><u>It'll Ruin The System</u></i></b>"
 ))
@@ -119,11 +117,11 @@ NOT_REGISTERED_PHONE = get_config("NOT_REGISTERED_PHONE", (
 ))
 PHONE_CODE_IN_VALID_ERR_TEXT = get_config(
     "PHONE_CODE_IN_VALID_ERR_TEXT",
-    "🤦‍♂️ Invalid Code Received. Please Re /start"
+    "🤦‍♂️ Invalid Code Received. Please Re /help"
 )
 TFA_CODE_IN_VALID_ERR_TEXT = get_config(
     "TFA_CODE_IN_VALID_ERR_TEXT",
-    "🤦‍♂️ Invalid Two Factor Code Received. Please Re /start"
+    "🤦‍♂️ Invalid Two Factor Code Received. Please Re /help"
 )
 ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "The entered Telegram Number is protected with 2FA. "
@@ -131,9 +129,9 @@ ACC_PROK_WITH_TFA = get_config("ACC_PROK_WITH_TFA", (
     "<i>This message will only be used for generating your "
     "string session, and will never be used for any other purposes "
     "than for which it is asked.</i>\n\n"
-    "⚙ @DamienSoukara"
+    "©️ : @DamienSoukara"
 ))
 SESSION_GENERATED_USING = get_config("SESSION_GENERATED_USING", (
     "👆 String Session Successfully Generated\n\n"
-    "⚙ By : @DamienSoukara 💜 Thank You For Using Me "
+    "©️ : @DamienSoukara \n💜 Thank You For Using Me "
 ))
