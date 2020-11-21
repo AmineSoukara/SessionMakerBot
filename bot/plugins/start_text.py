@@ -20,7 +20,9 @@ from pyrogram import (
     filters
 )
 from pyrogram.types import (
-    Message
+    Message,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton
 )
 from bot import (
     AKTIFPERINTAH,
