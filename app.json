@@ -8,9 +8,9 @@
         "modular",
         "productivity"
     ],
-    "repository": "https://github.com/SpEcHiDe/SessionMakerBot",
-    "website": "https://telegram.dog/UniBorg",
-    "success_url": "https://t.me/UniBorg/55",
+    "repository": "https://github.com/AmineSoukara/SessionMakerBot",
+    "website": "https://telegram.dog/DamienSoukara",
+    "success_url": "https://t.me/DamienSoukara/5",
     "env": {
         "APP_ID": {
             "description": "Get this value from my.telegram.org! Please do not steal"
