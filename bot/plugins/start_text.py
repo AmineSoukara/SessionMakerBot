@@ -49,7 +49,7 @@ async def num_start_message(_, message: Message):
 @Client.on_message(filters.private & filters.command('start'))
 def _start(client, message):
     chatID = message.chat.id
-    photoUrl = "https://telegra.ph/file/8ab63a84d02c469f37b2a.jpg"
+    photoUrl = "https://telegra.ph/file/d639f16bbc944cce15adf.jpg"
     client.send_photo(chatID, photoUrl, 
     parse_mode = "markdown", 
     caption = "**Pyrogram String Session Maker**\nPlease Read : /help", 
